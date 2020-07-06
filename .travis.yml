@@ -1,5 +1,5 @@
 language: node_js
-node_js: stable
+node_js: node
 cache:
   apt: true
   directories:
@@ -13,8 +13,7 @@ before_install:
 addons:
   ssh_known_hosts: 121.36.50.216
 install:
-- npm uninstall -g gitbook-cli
-- npm install -g gitbook-cli@2.3.2
+- npm install -g gitbook-cli
 - gitbook install
 before_script:
 script:
