@@ -1,0 +1,25 @@
+language: node_js
+node_js: stable
+cache:
+  apt: true
+  directories:
+  - node_modules
+before_install:
+- chmod 600 ~/.ssh/id_rsa_yangyong
+- echo -e "Host 121.36.50.216\n\tStrictHostKeyChecking no\n\tIdentityFile ~/.ssh/id_rsa_yangyong"
+  >> ~/.ssh/config
+addons:
+  ssh_known_hosts: 121.36.50.216
+install:
+- npm install -g gitbook-cli
+- gitbook install
+before_script:
+script:
+- echo 初始化文件...
+# - gitbook init
+- echo 正在生成静态文件...
+- gitbook build
+after_success:
+- cd ./_book/
+- echo 准备移动至指定文件夹...
+- travis_wait 30 scp -o stricthostkeychecking=no -rC ./* root@121.36.50.216:/root/algorithms
