@@ -13,8 +13,8 @@ before_install:
 addons:
   ssh_known_hosts: 121.36.50.216
 install:
-- npm install -g gitbook
 - npm install -g gitbook-cli
+- npm install -g gitbook
 - gitbook install
 before_script:
 script:
