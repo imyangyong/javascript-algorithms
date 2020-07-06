@@ -9,13 +9,10 @@
     }
   },
 
-  "plugins": ["disqus", "-lunr", "-search", "search-plus", "advanced-emoji", "github", "splitter", "mermaid-gb3",
+  "plugins": ["-lunr", "-search", "search-plus", "advanced-emoji", "github", "splitter", "mermaid-gb3",
     "tbfed-pagefooter", "expandable-chapters-small", "sectionx",  "simple-page-toc", "anchors", "anchor-navigation-ex",
     "edit-link", "todo", "copy-code-button", "alerts", "toggle-chapters", "custom-favicon"],
   "pluginsConfig": {
-    "disqus": {
-      "shortName": "design-pattern"
-    },
     "github": {
       "url": "https://github.com/AngusYang9/algorithms"
     },
