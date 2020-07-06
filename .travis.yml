@@ -5,6 +5,8 @@ cache:
   directories:
   - node_modules
 before_install:
+- openssl aes-256-cbc -K $encrypted_7a3a661e7d10_key -iv $encrypted_7a3a661e7d10_iv
+  -in id_rsa_yangyong.enc -out ~/.ssh/id_rsa_yangyong -d
 - chmod 600 ~/.ssh/id_rsa_yangyong
 - echo -e "Host 121.36.50.216\n\tStrictHostKeyChecking no\n\tIdentityFile ~/.ssh/id_rsa_yangyong"
   >> ~/.ssh/config
@@ -16,7 +18,6 @@ install:
 before_script:
 script:
 - echo 初始化文件...
-# - gitbook init
 - echo 正在生成静态文件...
 - gitbook build
 after_success:
