@@ -1,6 +1,6 @@
 # Summary
 
-* [算法介绍](README.md)
+* [首页](README.md)
 * [算法主题](theme/README.md)
     * [数学](theme/math/README.md)
         * [Bit 操控](theme/math/bits.md)
@@ -15,4 +15,19 @@
         * [复数](theme/math/complex-number.md)
         * [弧度和角](theme/math/radian.md)
         * [快速算次方](theme/math/fast-powering.md)
+        * [整数拆分](theme/math/integer-partition.md)
+        * [割圆术](theme/math/liu-hui.md)
+        * [离散傅里叶变换](theme/math/fourier-transform.md)
+    * [集合](theme/sets/README.md)
+        * [笛卡尔积](theme/sets/cartesian-product.md)
+        * [洗牌算法](theme/sets/fisher-yates.md)
+        * [幂集](theme/sets/power-set.md)
+        * [排列](theme/sets/permutations.md)
+        * [组合](theme/sets/combinations.md)
+        * [最长公共子序列](theme/sets/longest-common-subsequence.md)
+        * [最长递增子序列](theme/sets/longest-increasing-subsequence.md)
+        * [最短公共父序列](theme/sets/shortest-common-supersequence.md)
+        * [背包问题](theme/sets/knapsack-problem.md)
+        * [最大子数列问题](theme/sets/maximum-subarray.md)
+        * [组合求和](theme/sets/combination-sum.md)
 
