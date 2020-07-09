@@ -30,4 +30,12 @@
         * [背包问题](theme/sets/knapsack-problem.md)
         * [最大子数列问题](theme/sets/maximum-subarray.md)
         * [组合求和](theme/sets/combination-sum.md)
+    * [字符串](theme/string/README.md)
+        * [汉明距离](theme/string/hamming-distance.md)
+        * [莱温斯坦距离](theme/string/levenshtein-distance.md)
+        * [KMP 算法](theme/string/knuth-morris-pratt.md)
+        * [字符串快速查找](theme/string/z-algorithm.md)
+        * [Rabin Karp 算法](theme/string/rabin-karp.md)
+        * [最长公共子串](theme/string/longest-common-substring.md)
+        * [正则表达式匹配](theme/string/regular-expression-matching.md)
 
