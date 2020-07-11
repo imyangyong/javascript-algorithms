@@ -1,14 +1,14 @@
 # 插值查找
 
-**插值查找** 是利用 `插值公式` 来计算猜测目标元素在有序数组中键值 (索引) 可能的位置。搜索方式与[二分查找](theme/search/binary-search.html)相同。
+**插值查找** 是利用 `插值公式` 来计算猜测目标元素在有序数组中键值 (索引) 可能的位置。搜索方式与[二分查找](/theme/search/binary-search.html)相同。
 
-插值查找是一个改进的二分查找。二分查找总是到中间的元素去检查。然而，插值查找可以根据所查找键的值定位不同的位置。例如，如果键的值更接近最后一个元素，插值查找很可能从末端开始查找。
+插值查找是一个改进的二分查找。二分查找总是到中间的元素去检查。然而，插值查找可以根据目标值的大小定位相应的位置。例如，如果目标值更接近最后一个元素，插值查找很可能从末端开始查找。
 
 与二分查找差别在：
 
 - 二分查找法：猜测键值在中间位置
 
-- 插值查找法：用插值公式计算键值位置
+- 插值查找法：用插值公式计算键值位置，**不过这更适用于均匀分布的有序数组**。
 
 那么时间复杂度：
 
@@ -22,16 +22,20 @@
 
 为了找到要目标的位置，使用如下公式，即 **插值公式**：
 
+![img](http://img.90paw.com/AngusYang9/2020-07-11%2015-41-53.png)
+
+插值查找特别适合均匀分布的有序数组，它是根据`目标值与数组中最小值的差值`比上`数组的最大值与最小值差值`，得出索引前进或后退的比例，再乘以数组总长度。
+
 ```javascript
 // The idea of formula is to return higher value of pos
-// when element to be searched is closer to arr[hi]. And
-// smaller value when closer to arr[lo]
-pos = lo + ((x - arr[lo]) * (hi - lo) / (arr[hi] - arr[Lo]))
+// when element to be searched is closer to arr[hight]. And
+// smaller value when closer to arr[low]
+pos = low + ((x - arr[low]) * (hight - low) / (arr[hight] - arr[low]))
 
 arr[] - Array where elements need to be searched
 x - Element to be searched
-lo - Starting index in arr[]
-hi - Ending index in arr[]
+low - Starting index in arr[]
+hight - Ending index in arr[]
 ```
 
 ## 时间复杂度
