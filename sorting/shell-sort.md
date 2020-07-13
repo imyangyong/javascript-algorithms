@@ -1,6 +1,6 @@
 # 希尔排序
 
-**希尔排序**（Shellsort），也称**递减增量排序算法**，是[插入排序](/theme/sorting/insertion-sort.html)的一种更高效的改进版本。希尔排序是[非稳定排序算法](https://baike.baidu.com/item/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E7%A8%B3%E5%AE%9A%E6%80%A7)。
+**希尔排序**（Shellsort），也称**递减增量排序算法**，是[插入排序](/sorting/insertion-sort.html)的一种更高效的改进版本。希尔排序是[非稳定排序算法](https://baike.baidu.com/item/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E7%A8%B3%E5%AE%9A%E6%80%A7)。
 
 希尔排序是把元素按下标的一定增量分组，对每组使用直接插入排序算法排序；随着增量逐渐减少，每组包含的元素越来越多，当增量减至1时，整个列表恰被分成一组，最后执行一次插入排序算法便终止。
 
