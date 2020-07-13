@@ -102,4 +102,10 @@
 - `B` [选择排序](/sorting/selection-sort.html) - `O(n^2)`
 - `B` [堆排序](/sorting/heap-sort.html)
 
+### 链表：
+
+- `B` [正向遍历](/linked-list/traversal.html)
+- `B` [反向遍历](/linked-list/reverse-traversal.html)
+
+
 ![img](http://img.90paw.com/AngusYang9/2020-07-13%2016-12-59.png)

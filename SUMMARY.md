@@ -52,5 +52,7 @@
     * [希尔排序](sorting/shell-sort.md)
     * [选择排序](sorting/selection-sort.md)
     * [堆排序](sorting/heap-sort.md)
-
+* [链表](linked-list/README.md)
+    * [正向遍历](linked-list/traversal.md)
+    * [反向遍历](linked-list/reverse-traversal.md)
 
