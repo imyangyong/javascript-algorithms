@@ -107,5 +107,10 @@
 - `B` [正向遍历](/linked-list/traversal.html)
 - `B` [反向遍历](/linked-list/reverse-traversal.html)
 
+### 树：
+
+- `B` [深度优先搜索](/tree/depth-first-search.html)（DFS）
+- `B` [广度优先搜索](/tree/breadth-first-search.html)（BFS）
+
 
 ![img](http://img.90paw.com/AngusYang9/2020-07-13%2016-12-59.png)

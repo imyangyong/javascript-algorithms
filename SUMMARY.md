@@ -55,4 +55,7 @@
 * [链表](linked-list/README.md)
     * [正向遍历](linked-list/traversal.md)
     * [反向遍历](linked-list/reverse-traversal.md)
+* [树](tree/README.md)
+    * [深度优先搜索](tree/depth-first-search.md)
+    * [广度优先搜索](tree/breadth-first-search.md)
 
