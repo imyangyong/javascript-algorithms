@@ -55,8 +55,51 @@
 
 ### 搜索：
 
+时间复杂度效率排名：
+
+① [插值查找](theme/search/interpolation-search.html) - `O(log(log(n)))`
+
+② [二分查找](theme/search/binary-search.html) - `O(log(n))`
+
+③ [跳跃查找/块查找](theme/search/jump-search.html) - `O(√n)`
+
+④ [线性查找](theme/search/linear-search.html) - `O(n)`
+
+描述：
+
 - `B` [线性查找](theme/search/linear-search.html) - 遍历查找匹配的元素 `O(n)`
 - `B` [跳跃查找/块查找](theme/search/jump-search.html) - 有序数组跳跃查找匹配的元素 `O(√n)`
 - `B` [二分查找](theme/search/binary-search.html) - 有序数组二分查找匹配的元素 `O(log(n))`
 - `B` [插值查找](theme/search/interpolation-search.html) - 有序数组依据`插值公式`定位查找 `O(log(log(n)))`
 
+### 排序：
+
+时间复杂度效率排名：
+
+① [基数排序](theme/sorting/radix-sort.html) -  `O(n * k)`  k 为整数的位数
+
+② [快速排序](theme/sorting/quick-sort.html) -  `O(nlog(n))`
+
+② [归并排序](theme/sorting/merge-sort.html) -  `O(nlog(n))`
+
+③ [希尔排序](theme/sorting/shell-sort.html) -  `O(n^(1.3—2))`
+
+④ [冒泡排序](theme/sorting/bubble-sort.html) -  `O(n^2)`
+
+④ [插入排序](theme/sorting/insertion-sort.html) -  `O(n^2)`
+
+④ [选择排序](theme/sorting/selection-sort.html) -  `O(n^2)`
+
+描述：
+
+- `B` [冒泡排序](theme/sorting/bubble-sort.html) - `O(n^2)`
+- `B` [快速排序](theme/sorting/quick-sort.html) - (递归)基于基数二分，大小各置一边 `O(nlog(n))`
+- `B` [归并排序](theme/sorting/merge-sort.html) - (递归)拆分比较后合并 `O(nlog(n))`
+- `B` [计数排序](theme/sorting/counting-sort.html) - (非比较型)适用于数值范围较小的整数排序 `O(n + r)` r 为数值最大与最小的差值
+- `B` [基数排序](theme/sorting/radix-sort.html) - (非比较型)整数位数分隔，按位比较 `O(n * k)` k 为整数的位数
+- `B` [插入排序](theme/sorting/insertion-sort.html) - 适用于少量元素排序 `O(n^2)`
+- `B` [希尔排序](theme/sorting/shell-sort.html) - 按增量分组排序，每组执行插入排序 `O(n^(1.3—2))`
+- `B` [选择排序](theme/sorting/selection-sort.html) - `O(n^2)`
+- `B` [堆排序](theme/sorting/heap-sort.html)
+
+![img](http://img.90paw.com/AngusYang9/2020-07-13%2016-12-59.png)
