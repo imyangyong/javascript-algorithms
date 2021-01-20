@@ -17,11 +17,11 @@
 }
 ```
 
-![img](http://img.90paw.com/AngusYang9/2020-07-08%2014-26-51.png)
+![img](https://img.imyangyong.com/blog/2020-07-08%2014-26-51.png)
 
 下面图示用来说明集合 {x, y, z} 的幂集之间的包含关系：
 
-![img](http://img.90paw.com/AngusYang9/2020-07-08%2014-31-50.png)
+![img](https://img.imyangyong.com/blog/2020-07-08%2014-31-50.png)
 
 ### 子集的数目
 

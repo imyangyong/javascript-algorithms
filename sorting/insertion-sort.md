@@ -4,9 +4,9 @@
 
 插入排序的基本思想是将一个记录插入到已经排好序的有序表中，从而一个新的、记录数增 1 的有序表。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-11%2018-15-13.gif)
+![img](https://img.imyangyong.com/blog/2020-07-11%2018-15-13.gif)
 
-![img](http://img.90paw.com/AngusYang9/2020-07-11%2018-16-50.gif)
+![img](https://img.imyangyong.com/blog/2020-07-11%2018-16-50.gif)
 
 ## 时间复杂度
 

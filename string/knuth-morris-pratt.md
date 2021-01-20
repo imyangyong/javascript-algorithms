@@ -11,23 +11,23 @@
 
 图示如下：
 
-![img](http://img.90paw.com/AngusYang9/2020-07-09%2020-29-15.png)
+![img](https://img.imyangyong.com/blog/2020-07-09%2020-29-15.png)
 
 我们从`W`与`S`的开头比较起。我们比对到`S[3](=' ')`时，发现`W[3](='D')`与其不符。接着并不是从`S[1]`比较下去。我们已经知道`S[1]~S[3]`不与`W[0]`相合。因此，略过这些字符，令`m = 4`以及`i = 0`。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-09%2020-30-11.png)
+![img](https://img.imyangyong.com/blog/2020-07-09%2020-30-11.png)
 
 如上所示，我们检核了`"ABCDAB"`这个字符串。然而，这与目标仍有些差异。我们可以注意到，`"AB"`在字符串头尾处出现了两次。这意味着尾端的`"AB"`可以作为下次比较的起始点。因此，我们令`m = 8, i = 2`，继续比较。图标如下：
 
-![img](http://img.90paw.com/AngusYang9/2020-07-09%2020-30-54.png)
+![img](https://img.imyangyong.com/blog/2020-07-09%2020-30-54.png)
 
 于`m = 10`的地方，又出现不相符的情况。类似地，令`m = 11, i = 0`继续比较：
 
-![img](http://img.90paw.com/AngusYang9/2020-07-09%2020-31-36.png)
+![img](https://img.imyangyong.com/blog/2020-07-09%2020-31-36.png)
 
 这时，`S[17](='C')`不与`W[6]`相同，但是亦出现了两次`"AB"`，我们采取一贯的作法，令`m = 15`和`i = 2`，继续搜索。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-09%2020-32-16.png)
+![img](https://img.imyangyong.com/blog/2020-07-09%2020-32-16.png)
 
 我们找到完全匹配的字符串了，其起始位置于`S[15]`的地方。
 

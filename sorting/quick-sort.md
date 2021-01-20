@@ -12,7 +12,7 @@
 
 选取基准值有数种具体方法，此选取方法对排序的时间性能有决定性影响。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-11%2023-44-32.gif)
+![img](https://img.imyangyong.com/blog/2020-07-11%2023-44-32.gif)
 
 ## 时间复杂度
 

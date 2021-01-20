@@ -4,7 +4,7 @@
 
 `A={x,y,z}` 和 `B={1,2,3}` 的笛卡尔积 `AxB`：
 
-![img](http://img.90paw.com/AngusYang9/2020-07-08%2013-37-12.png)
+![img](https://img.imyangyong.com/blog/2020-07-08%2013-37-12.png)
 
 ## 代码
 

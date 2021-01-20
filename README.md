@@ -143,4 +143,4 @@
 - `A` [八皇后问题](/uncategorized/n-queens.html)
 - `A` [骑士巡逻](/uncategorized/knight-tour.html)
 
-![img](http://img.90paw.com/AngusYang9/2020-07-13%2016-12-59.png)
+![img](https://img.imyangyong.com/blog/2020-07-13%2016-12-59.png)

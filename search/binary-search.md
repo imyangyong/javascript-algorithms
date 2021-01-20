@@ -6,7 +6,7 @@
 
 这种搜索算法每一次比较都使搜索范围缩小一半。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-10%2016-45-26.png)
+![img](https://img.imyangyong.com/blog/2020-07-10%2016-45-26.png)
 
 ## 时间复杂度
 

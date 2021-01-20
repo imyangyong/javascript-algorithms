@@ -12,7 +12,7 @@
 
 ### 组合的数量
 
-![img](http://img.90paw.com/AngusYang9/2020-07-08%2016-19-45.png)
+![img](https://img.imyangyong.com/blog/2020-07-08%2016-19-45.png)
 
 其中 `n` 是元素的数量，我们选择 `r` 个，没有重复，顺序无关。
 
@@ -34,7 +34,7 @@
 
 ### 组合的数量
 
-![img](http://img.90paw.com/AngusYang9/2020-07-08%2016-33-41.png)
+![img](https://img.imyangyong.com/blog/2020-07-08%2016-33-41.png)
 
 其中 `n` 是元素的数量，我们从中选择 `r` 个。允许重复，顺序无关。
 

@@ -16,7 +16,7 @@
 
 与正整数 `1` 到 `8` 的拆分有关的图。它们的排列表示在关于正方形主对角线的反射下的图像是[共轭](https://baike.baidu.com/item/%E5%85%B1%E8%BD%AD/31802)拆分。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-08%2011-20-47.png)
+![img](https://img.imyangyong.com/blog/2020-07-08%2011-20-47.png)
 
 ## 代码
 

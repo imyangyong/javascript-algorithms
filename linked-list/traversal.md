@@ -4,7 +4,7 @@
 
 例如下面的链表：
 
-![img](http://img.90paw.com/AngusYang9/2020-07-13%2018-05-09.png)
+![img](https://img.imyangyong.com/blog/2020-07-13%2018-05-09.png)
 
 遍历的顺序应该为：
 

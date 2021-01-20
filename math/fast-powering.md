@@ -4,7 +4,7 @@
 
 它被写成一个小的数在基数的右边和上面。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2020-52-29.png)
+![img](https://img.imyangyong.com/blog/2020-07-07%2020-52-29.png)
 
 ## 普通算法复杂度
 

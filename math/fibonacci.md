@@ -6,11 +6,11 @@
 
 以斐波那契数为边的正方形拼成的近似的[黄金矩形](https://zh.wikipedia.org/wiki/黃金矩形)(1:1.618)
 
-![img](http://img.90paw.com/AngusYang9/2020-07-06%2015-16-31.png)
+![img](https://img.imyangyong.com/blog/2020-07-06%2015-16-31.png)
 
 斐波那契螺旋：一种近似的[黄金螺旋线](https://en.wikipedia.org/wiki/Golden_spiral)，通过在斐波那契花砖中画出连接正方形对角的圆弧而形成。这个用了大小为1 1 2 3 5 8 13 和21的正方形。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-06%2015-21-44.png)
+![img](https://img.imyangyong.com/blog/2020-07-06%2015-21-44.png)
 
 ## 代码
 

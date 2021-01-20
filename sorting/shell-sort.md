@@ -4,7 +4,7 @@
 
 希尔排序是把元素按下标的一定增量分组，对每组使用直接插入排序算法排序；随着增量逐渐减少，每组包含的元素越来越多，当增量减至1时，整个列表恰被分成一组，最后执行一次插入排序算法便终止。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-12%2001-41-05.gif)
+![img](https://img.imyangyong.com/blog/2020-07-12%2001-41-05.gif)
 
 ## 希尔算法如何实现
 
@@ -12,25 +12,25 @@
 
 那么这些列表值为 `{35, 14}`, `{33, 19}`, `{42, 27}` 和 `{10, 44}`。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-12%2011-23-44.png)
+![img](https://img.imyangyong.com/blog/2020-07-12%2011-23-44.png)
 
 我们比较每个子列表中的值，如果需要则在原始列表中交换它们。在这一步之后，新的数组应该是这样的：
 
-![img](http://img.90paw.com/AngusYang9/2020-07-12%2011-30-15.png)
+![img](https://img.imyangyong.com/blog/2020-07-12%2011-30-15.png)
 
 然后，我们取区间为 `2`，这个间隔生成两个子列表：
 
 - `{14, 27, 35, 42}`, `{19, 10, 33, 44}`
 
-![img](http://img.90paw.com/AngusYang9/2020-07-12%2011-38-00.png)
+![img](https://img.imyangyong.com/blog/2020-07-12%2011-38-00.png)
 
 继续比较每个子列表中的值，如需要则交换。那么现在数组应该是这样：
 
-<img src="http://img.90paw.com/AngusYang9/2020-07-12%2011-57-06.png" alt="img" style="zoom: 40%;" />
+<img src="https://img.imyangyong.com/blog/2020-07-12%2011-57-06.png" alt="img" style="zoom: 40%;" />
 
 最后，我们使用 `1` 的间隔对数组的其余部分进行排序。希尔排序使用插入排序对数组进行排序。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-12%2012-06-39.png)
+![img](https://img.imyangyong.com/blog/2020-07-12%2012-06-39.png)
 
 > 这里的 10 和 19 初始顺序有误，但不影响理解。
 

@@ -2,9 +2,9 @@
 
 **最大子数列问题** 是在一维数组 `a[1…n]`，查找连续子数组，其总和最大。其中，
 
-![img](http://img.90paw.com/AngusYang9/2020-07-08%2020-00-01.png)
+![img](https://img.imyangyong.com/blog/2020-07-08%2020-00-01.png)
 
-![img](http://img.90paw.com/AngusYang9/2020-07-08%2020-00-21.png)
+![img](https://img.imyangyong.com/blog/2020-07-08%2020-00-21.png)
 
 ## 示例
 

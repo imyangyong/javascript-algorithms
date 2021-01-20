@@ -4,9 +4,9 @@
 
 堆排序可以被认为是一种改进的[选择排序](/sorting/selection-sort.html)：它把输入分为一个已排序的区域和一个未排序的区域，然后通过提取最大的元素并将其移动到已排序的区域，迭代地缩小未排序的区域。改进为使用堆数据结构，而不是使用线性时间搜索来查找最大或值。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-11%2019-04-32.gif)
+![img](https://img.imyangyong.com/blog/2020-07-11%2019-04-32.gif)
 
-![img](http://img.90paw.com/AngusYang9/2020-07-11%2019-05-08.gif)
+![img](https://img.imyangyong.com/blog/2020-07-11%2019-05-08.gif)
 
 ## 时间复杂度
 

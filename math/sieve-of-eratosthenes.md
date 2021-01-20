@@ -20,7 +20,7 @@ Eratosthenes 筛选法是一种寻找 n 以下所有质数的算法。
 
 ## Example
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2015-48-19.gif)
+![img](https://img.imyangyong.com/blog/2020-07-07%2015-48-19.gif)
 
 ## 复杂度
 

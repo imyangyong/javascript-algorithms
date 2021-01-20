@@ -24,7 +24,7 @@ n * (n-1) * (n -2) * ... * 1 = n!
 
 当允许重复时，我们就用重复排列。比如密码锁可以是 `333`。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-08%2016-11-12.png)
+![img](https://img.imyangyong.com/blog/2020-07-08%2016-11-12.png)
 
 ### 组合的数量
 

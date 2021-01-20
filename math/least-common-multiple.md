@@ -36,7 +36,7 @@
 lcm(a, b) = |a * b| / gcd(a, b)
 ```
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2014-13-01.png)
+![img](https://img.imyangyong.com/blog/2020-07-07%2014-13-01.png)
 
 维恩图显示2、3、4、5和7组合的最小公倍数(6被跳过，因为它是2×3，两者都已经表示出来了)。
 

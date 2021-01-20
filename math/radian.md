@@ -6,11 +6,11 @@
 
 圆周为一个 `2π` 弧度的角；周长为 `2πr`。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2020-37-28.gif)
+![img](https://img.imyangyong.com/blog/2020-07-07%2020-37-28.gif)
 
 一个完整的旋转是 `2π` 弧度。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2020-41-11.gif)
+![img](https://img.imyangyong.com/blog/2020-07-07%2020-41-11.gif)
 
 ## 换算
 

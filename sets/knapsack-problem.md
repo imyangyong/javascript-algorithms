@@ -6,7 +6,7 @@
 
 下面就是背包问题的示例：应该选择哪些箱子来最大限度地增加钱的数量，同时保持总重量小于等于 15 公斤?
 
-![img](http://img.90paw.com/AngusYang9/2020-07-08%2019-31-35.png)
+![img](https://img.imyangyong.com/blog/2020-07-08%2019-31-35.png)
 
 ## 定义
 
@@ -16,9 +16,9 @@
 
 给定一组从 `1` 到 `n` 的 `n` 个项目，每个项目的重量 `wi` 和值 `vi`，以及最大重量的容量 `W`，
 
-最大值 ![img](http://img.90paw.com/AngusYang9/2020-07-08%2019-38-10.png)
+最大值 ![img](https://img.imyangyong.com/blog/2020-07-08%2019-38-10.png)
 
-受到 ![img](http://img.90paw.com/AngusYang9/2020-07-08%2019-38-51.png) 和 ![img](http://img.90paw.com/AngusYang9/2020-07-08%2019-39-24.png) 限制
+受到 ![img](https://img.imyangyong.com/blog/2020-07-08%2019-38-51.png) 和 ![img](https://img.imyangyong.com/blog/2020-07-08%2019-39-24.png) 限制
 
 这里 `xi` 表示要包含在背包中的项目 `i` 的数量（这里只能为 0 或 1，要么有要么没有）。那么，问题是最大化背包中物品的价值总和，使重量总和小于等于背包的容量。
 
@@ -26,17 +26,17 @@
 
 有界背包问题(BKP) 消除了每一项只有一个的限制，但将每一种项的数量 `xi` 限制为最大的非负整数值 `c`：
 
-最大值 ![img](http://img.90paw.com/AngusYang9/2020-07-08%2019-45-38.png)
+最大值 ![img](https://img.imyangyong.com/blog/2020-07-08%2019-45-38.png)
 
-受到 ![img](http://img.90paw.com/AngusYang9/2020-07-08%2019-38-51.png) 和 ![img](http://img.90paw.com/AngusYang9/2020-07-08%2019-46-37.png) 限制
+受到 ![img](https://img.imyangyong.com/blog/2020-07-08%2019-38-51.png) 和 ![img](https://img.imyangyong.com/blog/2020-07-08%2019-46-37.png) 限制
 
 ### 无界背包问题(UKP)
 
 无界背包问题(UKP) 对每种项的数量没有限制且无上界，可以用上述公式表示，但对 `xi` 必须是非负整数。
 
-最大值 ![img](http://img.90paw.com/AngusYang9/2020-07-08%2019-45-38.png)
+最大值 ![img](https://img.imyangyong.com/blog/2020-07-08%2019-45-38.png)
 
-受到 ![img](http://img.90paw.com/AngusYang9/2020-07-08%2019-38-51.png) 和 ![img](http://img.90paw.com/AngusYang9/2020-07-08%2019-48-54.png) 限制
+受到 ![img](https://img.imyangyong.com/blog/2020-07-08%2019-38-51.png) 和 ![img](https://img.imyangyong.com/blog/2020-07-08%2019-48-54.png) 限制
 
 ## 代码
 

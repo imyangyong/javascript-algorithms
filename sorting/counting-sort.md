@@ -12,19 +12,19 @@
 
 在第一步中，我们计算数组 `A` 的所有元素的计数，然后将结果存储在计数数组 `C` 中。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-12%2018-17-21.gif)
+![img](https://img.imyangyong.com/blog/2020-07-12%2018-17-21.gif)
 
 ### 第二步
 
 在第二步中，我们计算数组 `A` 中有多少小于或等于给定索引的元素。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-12%2018-27-33.png)
+![img](https://img.imyangyong.com/blog/2020-07-12%2018-27-33.png)
 
 ### 第三步
 
 在这一步中，我们遍历原数组 `A` 的元素，在计数数组 `C` 中找到与之对应的索引值，拿到该索引元素值作为结果数组 `B` 的坐标，把原数组中的元素放入 `B` 的这个坐标位置。 
 
-![img](http://img.90paw.com/AngusYang9/2020-07-12%2020-02-04.gif)
+![img](https://img.imyangyong.com/blog/2020-07-12%2020-02-04.gif)
 
 ## 时间复杂度
 

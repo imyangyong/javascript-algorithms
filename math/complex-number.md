@@ -2,11 +2,11 @@
 
 复数是 `a + b * i` 的形式，其中 `a` 和 `b` 是实数，`i` 是方程 `i^2 = −1` 的解。因为没有实数满足这个方程，所以 `i` 被称为虚数。对于复数 `a + b * i` ， `a` 称为实部，`b` 称为虚部。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2019-10-15.png)
+![img](https://img.imyangyong.com/blog/2020-07-07%2019-10-15.png)
 
 复数是实数和虚数的组合：
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2019-10-59.png)
+![img](https://img.imyangyong.com/blog/2020-07-07%2019-10-59.png)
 
 
 
@@ -22,7 +22,7 @@
 
 一个复数可以被直观地表示为一对数字 `(a, b)`，在表示复平面的阿根图上形成一个向量。`Re` 为实轴，`Im` 为虚轴，`i` 满足 `i² = −1`。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2019-15-50.png)
+![img](https://img.imyangyong.com/blog/2020-07-07%2019-15-50.png)
 
 > 复数并不意味着复杂。它的意思是实数和虚数这两种数字一起构成一个复数，就像建筑物的复数一样（建筑物连在一起）。
 
@@ -30,23 +30,23 @@
 
 另一种定义在复平面上点 `P` 的方法：除了使用 `x` ，`y` 坐标，还可以使用从 `0` 点出发与正实轴之间的角度，逆时针方向的线段 `OP`。这个想法引出了复数的极坐标形式。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2019-44-31.png)
+![img](https://img.imyangyong.com/blog/2020-07-07%2019-44-31.png)
 
 复数 `z = x + y*i` 的绝对值为：
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2019-45-38.png)
+![img](https://img.imyangyong.com/blog/2020-07-07%2019-45-38.png)
 
 `z` 的辐角（在许多应用中称为“相位”）是半径 `OP` 与正实轴的夹角，并且表示为 `arg(z)` 。和模数一样，可以从矩形 `x + y*i` 中找到：
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2019-51-01.png)
+![img](https://img.imyangyong.com/blog/2020-07-07%2019-51-01.png)
 
 `r` 和 `φ` 给出了复数的另一种表示方式，即极坐标形式，因为模和辐角的组合完全表示了平面上一点的位置。从极坐标形式中恢复出原来的直角坐标，用三角形式的公式：
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2019-53-53.png)
+![img](https://img.imyangyong.com/blog/2020-07-07%2019-53-53.png)
 
 用欧拉公式可以写成：
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2019-54-27.png)
+![img](https://img.imyangyong.com/blog/2020-07-07%2019-54-27.png)
 
 ## 基本操作
 
@@ -66,7 +66,7 @@
 
 在复杂平面上，相加操作如下：
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2019-57-21.png)
+![img](https://img.imyangyong.com/blog/2020-07-07%2019-57-21.png)
 
 ### 2. 相减
 
@@ -88,7 +88,7 @@
 
 就用 “FOIL” 吧，它代表 “First, Out, Inners, Last” (详见二项式乘法):
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2020-01-29.png)
+![img](https://img.imyangyong.com/blog/2020-07-07%2020-01-29.png)
 
 - Firsts: `a × c`
 - Outers: `a × di`
@@ -127,7 +127,7 @@
 
 共轭就是我们像这样改变中间的符号。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2020-04-54.png)
+![img](https://img.imyangyong.com/blog/2020-07-07%2020-04-54.png)
 
 共轭复数通常用横杠表示：
 
@@ -138,7 +138,7 @@ ______
 
 在复平面上，共轭数将与实轴相反。
 
-![img](http://img.90paw.com/AngusYang9/2020-07-07%2020-05-46.png)
+![img](https://img.imyangyong.com/blog/2020-07-07%2020-05-46.png)
 
 ### 5. 相除
 
