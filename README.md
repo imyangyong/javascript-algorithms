@@ -1,9 +1,9 @@
 <h1 align="center" style="margin: 30px 0 35px;">JavaScript Algorithms</h1>
 <p align="center">
-  <a href="https://travis-ci.org/AngusYang9/algorithms"><img src="https://travis-ci.org/AngusYang9/algorithms.svg?branch=master" /></a>
+  <a href="https://travis-ci.com/AngusYang9/javascript-algorithms"><img src="https://travis-ci.com/AngusYang9/javascript-algorithms.svg?branch=master" /></a>
 </p>
 
-[在线地址](https://www.90paw.com/javascript-algorithms)
+[在线地址](https://www.imyangyong.com/javascript-algorithms)
 
 算法是如何解决一类问题的明确规范。算法是一组精确定义操作序列的规则。
 
