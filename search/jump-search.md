@@ -14,7 +14,7 @@ O($$ \sqrt{n} $$) - 因为我们是用大小为 $$ \sqrt{n} $$  的块来搜索�
 
 ```javascript
 import Comparator from myComparatorUtil;
-// https://github.com/AngusYang9/javascript-algorithms/blob/master/src/utils/comparator/Comparator.js
+// https://github.com/imyangyong/javascript-algorithms/blob/master/src/utils/comparator/Comparator.js
 
 /**
  * Jump (block) search implementation.

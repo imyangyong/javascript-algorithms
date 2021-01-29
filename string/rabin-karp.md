@@ -26,7 +26,7 @@ Rabin-Karp 算法性能的关键是有效计算文本连续子字符串的哈希
 
 ```javascript
 import PolynomialHash from myUtils;
-// https://github.com/AngusYang9/javascript-algorithms/blob/master/src/algorithms/cryptography/polynomial-hash/PolynomialHash.js
+// https://github.com/imyangyong/javascript-algorithms/blob/master/src/algorithms/cryptography/polynomial-hash/PolynomialHash.js
 
 /**
  * @param {string} text - Text that may contain the searchable word.

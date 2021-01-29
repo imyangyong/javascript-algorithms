@@ -14,7 +14,7 @@
     "edit-link", "todo", "copy-code-button", "alerts", "toggle-chapters", "custom-favicon"],
   "pluginsConfig": {
     "github": {
-      "url": "https://github.com/AngusYang9/javascript-algorithms"
+      "url": "https://github.com/imyangyong/javascript-algorithms"
     },
     "tbfed-pagefooter": {
       "copyright":"Copyright &copy Angus Yang 2020",
@@ -29,7 +29,7 @@
       "skipFirstH1": true
     },
     "edit-link": {
-      "base": "https://github.com/AngusYang9/javascript-algorithms/blob/master",
+      "base": "https://github.com/imyangyong/javascript-algorithms/blob/master",
       "label": "Edit This Page"
     },
     "favicon": "assets/images/favicon.ico",

@@ -82,7 +82,7 @@ export default class KnapsackItem {
 
 ```javascript
 import MergeSort from utils;
-// https://github.com/AngusYang9/javascript-algorithms/blob/master/src/algorithms/sorting/merge-sort/MergeSort.js
+// https://github.com/imyangyong/javascript-algorithms/blob/master/src/algorithms/sorting/merge-sort/MergeSort.js
 
 export default class Knapsack {
   /**

@@ -30,7 +30,7 @@ T ≈ log<sub>B</sub>N * n
 
 ```javascript
 import Sort from '../Sort';
-// https://github.com/AngusYang9/javascript-algorithms/blob/master/src/algorithms/sorting/Sort.js 
+// https://github.com/imyangyong/javascript-algorithms/blob/master/src/algorithms/sorting/Sort.js 
 
 // Using charCode (a = 97, b = 98, etc), we can map characters to buckets from 0 - 25
 const BASE_CHAR_CODE = 97;

@@ -34,7 +34,7 @@
 
 ```javascript
 import Sort from '../Sort';
-// https://github.com/AngusYang9/javascript-algorithms/blob/master/src/algorithms/sorting/Sort.js 
+// https://github.com/imyangyong/javascript-algorithms/blob/master/src/algorithms/sorting/Sort.js 
 
 export default class CountingSort extends Sort {
   /**

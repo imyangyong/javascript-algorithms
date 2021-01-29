@@ -12,7 +12,7 @@
 
 ```javascript
 import Comparator from myComparatorUtil;
-// https://github.com/AngusYang9/javascript-algorithms/blob/master/src/utils/comparator/Comparator.js
+// https://github.com/imyangyong/javascript-algorithms/blob/master/src/utils/comparator/Comparator.js
 
 /**
  * Linear search implementation.
