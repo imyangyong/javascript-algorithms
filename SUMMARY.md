@@ -1,6 +1,7 @@
 # Summary
 
 * [首页](README.md)
+* [算法范式](Paradigm.md)
 * [数学](math/README.md)
     * [Bit 操控](math/bits.md)
     * [阶乘](math/factorial.md)

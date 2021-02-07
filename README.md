@@ -7,6 +7,10 @@
 
 算法是如何解决一类问题的明确规范。算法是一组精确定义操作序列的规则。
 
+## 算法主题:
+
+> 👉 [算法范式](Paradigm.html)
+
 `B` - 初学者， `A` - 进阶
 
 ### 数学：
@@ -43,7 +47,7 @@
 
 ### 字符串：
 
-- `B` [汉明距离](/string/hamming-distance.html) - 两个等长字符串，对应位置的不同字符的个数
+- `B` [汉明距离](/string/hammin-cdistance.html) - 两个等长字符串，对应位置的不同字符的个数
 - `A` [莱温斯坦距离](/string/levenshtein-distance.html) - 两个字符串之间，由一个转成另一个所需的最少编辑操作次数。
 - `A` [KMP 算法](/string//knuth-morris-pratt.html) - 子串搜索
 - `A` [Z 算法](/string/z-algorithm.html) - 子串搜索
@@ -119,7 +123,7 @@
 - `A` [贝尔曼-福特算法](/graph/bellman-ford.html) - 找到图中所有顶点的最短路径
 - `A` [弗洛伊德算法](/graph/floyd-warshall.html) - 找到所有 `顶点对` 之间的最短路径
 - `A` [判圈算法](/graph/detect-cycle.html) - 对于有向图和无向图 (基于 DFS 和不相交集的版本)
-- `A` [普林演算法](/graph/prim.html) - 寻找加权无向图的最小生成树 (MST)
+- `A` [普林姆算法](/graph/prim.html) - 寻找加权无向图的最小生成树 (MST)
 - `A` [拓扑排序](/graph/topological-sorting.html) - DFS 方法
 - `A` [关节点](/graph/articulation-points.html) - Tarjan 算法 (基于 DFS)
 - `A` [桥](/graph/bridges.html) - 基于 DFS 的算法
